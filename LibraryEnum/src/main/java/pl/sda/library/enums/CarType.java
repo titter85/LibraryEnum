@@ -97,7 +97,7 @@ public enum CarType {
     }
 
     public int weight() {
-        return this.weight;
+        return this.weight*2;
     }
 
     // zadanie 6: Dodaj metodę abstrakcyjną purpose, zwracającą String
